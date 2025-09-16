@@ -1,0 +1,118 @@
+{
+	"info": {
+		"_postman_id": "3406ccf8-2ea8-4597-a317-0714d8c00702",
+		"name": "restful-api.dev CRUD",
+		"description": "This collection contains all CRUD requests for restful-api.dev API.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "36222254"
+	},
+	"item": [
+		{
+			"name": "https://api.restful-api.dev/objects",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.restful-api.dev/objects",
+					"protocol": "https",
+					"host": [
+						"api",
+						"restful-api",
+						"dev"
+					],
+					"path": [
+						"objects"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.restful-api.dev/objects/13",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.restful-api.dev/objects/13",
+					"protocol": "https",
+					"host": [
+						"api",
+						"restful-api",
+						"dev"
+					],
+					"path": [
+						"objects",
+						"13"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.restful-api.dev/objects",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\r\n    \"name\": \"Mac Air\",\r\n    \"data\": {\r\n        \"Generation\": \"5th\",\r\n        \"Price\": \"1502.99\",\r\n        \"Capacity\": \"512 GB\"\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api.restful-api.dev/objects",
+					"protocol": "https",
+					"host": [
+						"api",
+						"restful-api",
+						"dev"
+					],
+					"path": [
+						"objects"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.restful-api.dev/objects/ff8081819782e69e01982bf61b502e3b",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\r\n    \"name\": \"Mac Pro Air\",\r\n    \"data\": {\r\n        \"Generation\": \"4th\",\r\n        \"Price\": \"1502.99\",\r\n        \"Capacity\": \"256 GB\"\r\n    }\r\n}"
+				},
+				"url": {
+					"raw": "https://api.restful-api.dev/objects/ff8081819782e69e01982bf61b502e3b",
+					"protocol": "https",
+					"host": [
+						"api",
+						"restful-api",
+						"dev"
+					],
+					"path": [
+						"objects",
+						"ff8081819782e69e01982bf61b502e3b"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
